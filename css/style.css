@@ -479,3 +479,54 @@ body {
 	transition: 0.3s;
 }
 /*buy section*/
+/*contacts section*/
+.contacts-titles {
+	background-color: #333333;
+	color: white;
+	font-size: 18px;
+	font-weight: 900;
+	display: block;	
+}
+#contacts-send {
+	padding: 23px 19px 23px 16px;
+	width: 70%;
+}
+#contacts-name, #contacts-email {
+	width: 48%;
+	height: 45px;
+	padding-left: 10px;
+}
+#contacts-name {
+	margin-right: 17px;
+	margin-bottom: 15px;
+}
+#contacts-email {
+	margin-bottom: 15px;
+}
+#contacts-message {
+	width: 100%;
+	padding-left: 10px;
+	padding-top: 15px;
+	margin-bottom: 15px;
+}
+#contacts-button-send {
+	background-color: #f1ad1d;
+	padding: 15px 40px;
+	margin: 0 0 15px 0; 
+	border: none;
+	color: #fff;
+	font-size: 14px;
+	font-weight: 900;
+}
+#contacts-intouch, #contacts-follow {
+	display: block;
+	width: 80%;
+	min-width: 138px;
+	padding: 23px 118px 23px 16px;
+}
+#copyright {
+	text-align: center;
+	font-size: 14px;
+	
+}
+/*contacts section*/
