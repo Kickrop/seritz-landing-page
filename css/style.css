@@ -518,6 +518,7 @@ body {
 	color: #fff;
 	font-size: 14px;
 	font-weight: 900;
+	cursor: pointer;
 }
 #contacts-intouch, #contacts-follow {
 	display: block;
