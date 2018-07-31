@@ -137,6 +137,7 @@ body {
 	border: none;
 	color: #fff;
 	font-size: 14px;
+	cursor: pointer;
 }
 .about-products {
 	position: relative;
@@ -298,9 +299,87 @@ body {
 	border: 1px solid #939393;
 	color: #f1ad1d;
 }
-.portfolio-all-1 {
-	background-image: url(../img/portfolio_1.jpg);
+/*flip*/
+
+.flip-container
+{
+    position:relative;
+    -webkit-perspective:1000;
+    perspective:1000;
 }
+.flip-cards
+{
+    min-width:270px;
+    width: 100%;
+    height:270px;
+    position:relative;
+    float:left;    
+    /*margin-left:5px;*/
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+.flip-cards:hover
+{
+    transform: rotateY( 180deg );
+    -webkit-transform: rotateY(180deg);
+}
+.flip-cards div, .portfolio-all
+{
+    width:270px;
+    height:270px;
+    position:absolute;   
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+}
+.front-card {
+					z-index: 2;
+					background-image: url(../img/portfolio_1.jpg);
+}
+.reverse-card
+{
+    -webkit-transform: rotateY(180deg);
+    transform: rotateY( 180deg );
+}
+#card1 {
+	background-color: #fff;
+	border: 2px solid #000;
+
+}
+/*flip*/
+.portfolio-all-1 {
+	/*background-image: url(../img/portfolio_1.jpg);*/
+}
+.portfolio-reverse-title {
+	font-size: 18px;
+	text-align: center;
+	margin: 26px 0 0 0;
+}
+.portfolio-reverse-text {
+	font-size: 14px;
+	text-align: center;
+	margin: 66px 26px 26px 26px;
+}
+.portfolio-orange-line {
+	border-bottom: 3px solid #f1ad1d;
+	width: 50px;
+	position: absolute;
+ left: -25px;
+	margin: 30px 50% 20px 50%;
+	}
+.portfolio-button-readmore {
+		background-color: #f1ad1d;
+		/*padding: 14px 35px;*/
+		width:150px;
+		height: 40px;
+		border: none;
+		color: #fff;
+		cursor: pointer;
+		position: absolute;
+		margin: 0 50%;
+		left: -75px;
+	}
 .portfolio-all-2 {
 	background-image: url(../img/portfolio_2.jpg);
 }
@@ -341,11 +420,17 @@ body {
 	padding: 7.5px;
 }
 .portfolio-all {
-	background-repeat: no-repeat;
+/*	background-repeat: no-repeat;
+	position:relative;
 	min-width: 270px;
-	width: 100%;
+	width: 271px;
 	height: 270px;
-	background-color: black;
+	background-color: black;*/
+/*	-webkit-transition: all 1s ease;
+ transition: all 1s ease;
+ -webkit-transform-style: preserve-3d;
+ transform-style: preserve-3d;
+ z-index: 2;*/
 /*	margin-top: 15px;
 	margin-bottom: 15px;*/
 }
