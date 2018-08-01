@@ -324,6 +324,7 @@ body {
 {
     transform: rotateY( 180deg );
     -webkit-transform: rotateY(180deg);
+    transition-delay: .2s;
 }
 .flip-cards div, .portfolio-all
 {
