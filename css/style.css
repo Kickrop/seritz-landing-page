@@ -344,7 +344,7 @@ body {
 }
 #card1 {
 	background-color: #fff;
-	border: 2px solid #000;
+	border: 1px solid #000;
 
 }
 /*flip*/
@@ -418,21 +418,6 @@ body {
 /*portfolio section*/
 .portfolio-padding {
 	padding: 7.5px;
-}
-.portfolio-all {
-/*	background-repeat: no-repeat;
-	position:relative;
-	min-width: 270px;
-	width: 271px;
-	height: 270px;
-	background-color: black;*/
-/*	-webkit-transition: all 1s ease;
- transition: all 1s ease;
- -webkit-transform-style: preserve-3d;
- transform-style: preserve-3d;
- z-index: 2;*/
-/*	margin-top: 15px;
-	margin-bottom: 15px;*/
 }
 .companies {
 /*	min-width: 220px;*/
