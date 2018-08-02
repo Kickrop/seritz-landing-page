@@ -2,6 +2,14 @@
 body {
 	font-family: 'Open Sans', sans-serif;
 	color: #333333;
+	--btn-hover-color: #f18f10;
+}
+button {
+	outline: none;
+}
+button:hover {
+	background: var(--btn-hover-color);
+	transition: .1s;
 }
 /*first section*/
 .main {
@@ -115,6 +123,12 @@ body {
 .about-gallery {
 	border: 1px solid #878787;
 	margin-bottom: 20px;
+	transition: .2s;
+}
+.about-gallery:hover, .about-gallery:hover + p.about-products {
+	transform: scale(1.1);
+	background-color: #000;
+	transition-delay: .1s;
 }
 .about-text-title {
 		margin-top: 0;
@@ -149,6 +163,8 @@ body {
 	color: #fff;
 	padding: 7px 7px;
 	width: 11px;
+	text-decoration: none;
+	transition: .2s;
 }
 /*second section*/
 /*third section*/
@@ -336,7 +352,6 @@ body {
 }
 .front-card {
 					z-index: 2;
-					background-image: url(../img/portfolio_1.jpg);
 }
 .reverse-card
 {
@@ -349,9 +364,6 @@ body {
 
 }
 /*flip*/
-.portfolio-all-1 {
-	/*background-image: url(../img/portfolio_1.jpg);*/
-}
 .portfolio-reverse-title {
 	font-size: 18px;
 	text-align: center;
@@ -381,6 +393,9 @@ body {
 		margin: 0 50%;
 		left: -75px;
 	}
+.portfolio-all-1 {
+	background-image: url(../img/portfolio_1.jpg);
+}
 .portfolio-all-2 {
 	background-image: url(../img/portfolio_2.jpg);
 }
@@ -574,6 +589,11 @@ body {
 }
 #contacts-email {
 	margin-bottom: 15px;
+	text-decoration: none;
+}
+.contacts-adres-list a {
+	text-decoration: none;
+	color: #333;
 }
 #contacts-message {
 	width: 100%;
@@ -590,6 +610,10 @@ body {
 	font-size: 14px;
 	font-weight: 900;
 	cursor: pointer;
+}
+#contacts-button-send:hover {
+	background: var(--btn-hover-color);
+	transition: .1s;
 }
 #contacts-intouch, #contacts-follow {
 	display: block;
