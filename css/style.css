@@ -121,6 +121,8 @@ button:hover {
 	margin-bottom: 60px;
 }
 .about-gallery {
+	max-width: 270px;
+	text-align: center;
 	border: 1px solid #878787;
 	margin-bottom: 20px;
 	transition: .2s;
