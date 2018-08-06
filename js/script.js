@@ -7,14 +7,16 @@ function openTab(tabName, elmnt) {
     }
 
     // Remove the background color of all tablinks/buttons
-    // tablinks = document.getElementsByClassName("tablink");
-    // for (i = 0; i < tablinks.length; i++) {
-    //     tablinks[i].style.backgroundColor = "";
-    // }
+    tablinks = document.getElementsByClassName("tablink");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].style.backgroundColor = "";
+        tablinks[i].style.color = "";
+    }
 
     // Show the specific tab content
     document.getElementById(tabName).style.display = "block";
-
+    elmnt.style.backgroundColor = "#333";
+    elmnt.style.color = "#f1ad1d";
     // Add the specific color to the button used to open the tab content
     // elmnt.style.backgroundColor = color;
 }
