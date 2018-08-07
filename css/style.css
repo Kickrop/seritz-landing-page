@@ -194,6 +194,8 @@ button:hover {
 	min-width: 190px;
 	border: 1px solid #fff;
 	padding: 0;
+	background-repeat: 	no-repeat;
+	background-position: center;
 }
 .team-member-name {
 	color: #fff;
@@ -302,7 +304,7 @@ button:hover {
 .portfolio-tabs {
 	padding: 0;
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-around;
 	margin-bottom: 45px;
 }
 /*.portfolio-tab {
@@ -358,7 +360,9 @@ button:hover {
     width: 100%;
     height:270px;
     position:relative;
-    float:left;    
+    /*background-position:center; */
+    /*float:left;*/
+    /*background-position:center;     */
     /*margin-left:5px;*/
     -webkit-transition: all 1s ease;
     transition: all 1s ease;
@@ -373,9 +377,11 @@ button:hover {
 }
 .flip-cards div, .portfolio-all
 {
-    width:270px;
-    height:270px;
-    position:absolute;   
+    width:100%;
+    height:100%;
+    background-repeat: no-repeat;	
+    background-size: 	cover;
+    position:absolute;  
     backface-visibility: hidden;
     -webkit-backface-visibility: hidden;
 }
@@ -465,10 +471,37 @@ button:hover {
 	padding: 7.5px;
 
 }
+.portfolio-companies-logos {
+/*	padding-left: 0;
+	padding-right: 	0;
+	display: flex;
+	justify-content: space-around;*/
+	
+}
 .companies {
 /*	min-width: 220px;*/
 	width: 218px;
 	height: 238px;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.partner-logo-1 {
+	background-image: url(../img/partner_1.jpg);
+}
+.partner-logo-2 {
+	background-image: url(../img/partner_2.jpg);
+}
+.partner-logo-3 {
+	background-image: url(../img/partner_3.jpg);
+}
+.partner-logo-4 {
+	background-image: url(../img/partner_4.jpg);
+}
+.partner-logo-5 {
+	background-image: url(../img/partner_5.jpg);
+}
+.partner-logo-6 {
+	background-image: url(../img/partner_6.jpg);
 }
 .big-orange-line {
 		border-bottom: 3px solid #f1ad1d;
