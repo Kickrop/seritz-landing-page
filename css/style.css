@@ -191,7 +191,7 @@ button:hover {
 .team-gallery {
 	height: 178px;
 	width: 100%;
-	min-width: 190px;
+	min-width: 135px;
 	border: 1px solid #fff;
 	padding: 0;
 	background-repeat: 	no-repeat;
@@ -291,12 +291,8 @@ button:hover {
 	margin-top: 174px;
 }
 .featured-logos {
-	display: -webkit-flex;
-	display: -moz-flex;
-	display: -ms-flex;
-	display: -o-flex;
-	display: flex;
-	justify-content: space-around;
+	display: block;
+	text-align: center;
 	padding-bottom: 124px;
 }
 /*featured section*/
