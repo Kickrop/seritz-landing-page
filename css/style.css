@@ -742,7 +742,7 @@ button:hover {
 
 }
 @media (max-width: 768px) {
-#contacts-intouch, #contacts-follow {
+#contacts-intouch, #contacts-follow, #contacts-send, #contacts-name, #contacts-email {
 	width: 100%;
 }
 }
