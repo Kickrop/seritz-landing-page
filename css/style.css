@@ -108,7 +108,7 @@ button:hover {
 }
 /*common style end*/
 
-/*second section*/
+/*about section*/
 .about {
 	padding-bottom: 180px;
 }
@@ -155,6 +155,9 @@ button:hover {
 	font-size: 14px;
 	cursor: pointer;
 }
+.about-product-link {
+	text-decoration: none;
+}
 .about-products {
 	position: relative;
 	margin: 0;
@@ -168,7 +171,7 @@ button:hover {
 	text-decoration: none;
 	transition: .2s;
 }
-/*second section*/
+/*about section*/
 /*third section*/
 .spacefiller {
 	background-image: url(../img/bg1.jpg);
