@@ -742,10 +742,13 @@ button:hover {
 /*contacts section*/
 /*adaptive*/
 @media (max-width: 768px) {
-
-}
-@media (max-width: 768px) {
 #contacts-intouch, #contacts-follow, #contacts-send, #contacts-name, #contacts-email {
 	width: 100%;
+}
+#main-title {
+	font-size: 40px;
+}
+#main-title-phrase {
+	line-height: 2;
 }
 }
