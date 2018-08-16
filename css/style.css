@@ -752,3 +752,11 @@ button:hover {
 	line-height: 2;
 }
 }
+@media (max-width: 768px) {
+.quote-client-info {
+	padding-bottom: 50px;
+}
+#main-title {
+	font-size: 16px;
+}
+}
